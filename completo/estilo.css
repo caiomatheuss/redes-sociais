@@ -54,11 +54,11 @@ main {
 
 .redes-sociais a img:hover {
     border: 1px solid white;
-    transition: 0.3s;
+    transition: .3s;
     transform: translate(-4px, -4px);
 }
 
 .redes-sociais {
-    text-align: right;
+    text-align: left;
 }
 

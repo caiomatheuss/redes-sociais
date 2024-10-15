@@ -1,0 +1,32 @@
+@charset "UFT-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+a {
+    background-color: darkred;
+    color: white;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color: rgb(206, 85, 85);
+    color: darkred;
+    transition: 0.3s;
+    border: 1px solid white;
+}
